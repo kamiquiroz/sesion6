@@ -1,7 +1,9 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import { App } from './App'
 
-
+ReactDOM.render(<App />, document.getElementById('root'))
+/*
 //Componentes: permite separar la interfaz en piezas independientes y está
 //compuesta de elementos
 function getTime() {
@@ -18,6 +20,6 @@ function getTime() {
     ReactDOM.render(element, document.getElementById('root'))
 }
 
-setInterval(getTime,1000);
+setInterval(getTime,1000);*/
 
 
