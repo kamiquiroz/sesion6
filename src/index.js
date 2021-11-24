@@ -1,7 +1,11 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import { App } from './App'
+import Counter from './App'
+import Actualizable from './App'
 
+//ReactDOM.render(<Actualizable />, document.getElementById('root'))
+//ReactDOM.render(<Counter />, document.getElementById('root'))
 ReactDOM.render(<App />, document.getElementById('root'))
 /*
 //Componentes: permite separar la interfaz en piezas independientes y está
